@@ -7,6 +7,7 @@ import Accomplishment from "./Accomplishment";
 import resume from "../LucasHarveyResume.pdf";
 import partyfinder from "../Images/partyfinder.png";
 import nexchange from "../Images/nexchange.png";
+import facebook from "../Images/facebook.png";
 import bloomberg from "../Images/bloomberg.png";
 import wayfair from "../Images/wayfair.png";
 import intellisports from "../Images/intellisports.png";
@@ -43,12 +44,10 @@ class App extends Component {
               <br />
               Passion: <span>Entrepreneurship</span>
               <br />
-              Interested in: <span>Machine Learning</span>
+              Current project: <span>Salesboost Shopify Upsell App</span>
               <br />
-              Current project: <span>Stock Prediction</span> using ML and
-              company fundamentals
-              <br />
-              Open to internship opportunities starting in <span>May 2021</span>
+              Open to internship opportunities starting in{" "}
+              <span>January 2022</span>
             </p>
             <ScrollAnimation animateIn="fadeInButton" animateOnce>
               <a
@@ -80,29 +79,29 @@ class App extends Component {
                   <nobr>I am fluent in: </nobr>
                 </span>
                 <span> Python </span>
-                <span className="element"> SQL </span>
                 <span className="element"> JavaScript </span>
+                <span className="element"> SQL </span>
+                <span className="element"> GraphQL </span>
+                <span className="element"> PHP </span>
+                <span className="element"> C/C++/Objective-C </span>
                 <span className="element"> HTML </span>
                 <span className="element"> CSS </span>
-                <span className="element"> C/C++/Objective-C </span>
-                <span className="element"> PHP </span>
-                <span className="element"> MATLAB </span>
-                <span className="element"> R </span>
               </p>
               <p>
                 <span className="section-subtitle">
                   <nobr>I have worked with: </nobr>
                 </span>
-                <span> Flask </span>
+                <span> Node.js </span>
+                <span className="element"> Flask </span>
+                <span className="element"> MongoDB </span>
+                <span className="element"> Git </span>
                 <span className="element"> React </span>
-                <span className="element"> Airflow </span>
-                <span className="element"> Hive </span>
-                <span className="element"> Docker </span>
                 <span className="element"> React Native </span>
                 <span className="element"> XCode </span>
-                <span className="element"> R Studio </span>
-                <span className="element"> Jupyter </span>
-                <span className="element"> Git </span>
+                <span className="element"> Pandas </span>
+                <span className="element"> Scikit-Learn </span>
+                <span className="element"> Airflow </span>
+                <span className="element"> Hive </span>
               </p>
             </div>
           </div>
@@ -114,13 +113,22 @@ class App extends Component {
               <span>Work Experience</span>
             </h2>
             <Accomplishment
-              link="https://www.bloomberg.com/"
+              link="https://www.facebook.com/"
+              image={facebook}
+              alt="Facebook logo"
+              title="Facebook"
+              subtitle1="Software Engineer Intern"
+              subtitle2="Menlo Park, CA"
+              description="Currently working on the Instagram Rooms team and adding Hashtags to IG Rooms to increase visibility of Rooms throughout IG."
+            />
+            <Accomplishment
+              link="https://www.bloomberg.net/"
               image={bloomberg}
               alt="Bloomberg logo"
               title="Bloomberg"
               subtitle1="Software Engineer Intern"
               subtitle2="New York City, NY"
-              description="Currently working with the Assets and Investments Trade Management team on post-trade workflow prediction."
+              description="Worked with the Assets and Investments Trade Management team to create a recommender system for post-trade automation flows."
             />
             <Accomplishment
               link="https://www.wayfair.com/"
@@ -177,7 +185,7 @@ class App extends Component {
               description="ReachMoreOnline is an e-commerce agency that helps small businesses transition to online sales. Faced with the physical limitations of the pandemic, we set out to help small business thrive by selling their products online."
             />
             <Accomplishment
-              link="https://partyfinder.ca/"
+              link="https://lucasharvey.github.io/partyfinder-website/"
               image={partyfinder}
               alt="Partyfinder logo"
               title="PartyFinder"
