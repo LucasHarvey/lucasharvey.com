@@ -119,7 +119,7 @@ class App extends Component {
               title="Facebook"
               subtitle1="Software Engineer Intern"
               subtitle2="Menlo Park, CA"
-              description="Currently working on the Instagram Rooms team and adding real-time captioning and translations to Instagram Video Calling. Previously added Hashtags to IG Rooms to increase visibility of Rooms throughout IG."
+              description="Worked on the Instagram Rooms team and added real-time captioning and translations to Instagram Video Calling. Previously added Hashtags to IG Rooms to increase visibility of Rooms throughout IG."
             />
             <Accomplishment
               link="https://www.bloomberg.net/"
