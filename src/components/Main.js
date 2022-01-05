@@ -45,9 +45,6 @@ class App extends Component {
               Passion: <span>Entrepreneurship</span>
               <br />
               Current project: <span>Salesboost Shopify Upsell App</span>
-              <br />
-              Open to internship opportunities starting in{" "}
-              <span>January 2022</span>
             </p>
             <ScrollAnimation animateIn="fadeInButton" animateOnce>
               <a
